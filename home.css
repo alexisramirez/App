@@ -1,0 +1,340 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/fondohome.png"),url("img/fondohomeMax.png");
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#image {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 78px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#image1 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box {
+    float: left;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(84, 84, 84);
+    position: fixed;
+    top: auto;
+    left: 0%;
+    bottom: 0px;
+    right: auto;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 6.13444%;
+    height: auto;
+    margin-left: 21.336263%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 5.994466%;
+    height: auto;
+    margin-left: 11.070964%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image4 {
+    float: left;
+    width: auto;
+    max-width: 6.101888%;
+    height: auto;
+    margin-left: 11.01888%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image5 {
+    float: left;
+    width: auto;
+    max-width: 6.162109%;
+    height: auto;
+    margin-left: 10.836589%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .primaryContainer {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+
+    #image1 {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: auto;
+    }
+
+    #box {
+        float: left;
+        clear: none;
+        width: 100%;
+        background-color: rgb(84, 84, 84);
+        right: auto;
+    }
+
+    #image2 {
+        margin-left: 21.334839%;
+        clear: none;
+    }
+
+    #image3 {
+        margin-left: 11.070251%;
+        clear: none;
+    }
+
+    #image4 {
+        margin-left: 11.018372%;
+        clear: none;
+    }
+
+    #image5 {
+        margin-left: 10.835266%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #box {
+        width: 100%;
+        clear: none;
+    }
+
+    #image2 {
+        float: left;
+        width: auto;
+        max-width: 6.13444%;
+        height: auto;
+        margin-left: 21.336263%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image3 {
+        float: left;
+        width: auto;
+        max-width: 5.994466%;
+        height: auto;
+        margin-left: 11.070964%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image4 {
+        float: left;
+        width: auto;
+        max-width: 6.101888%;
+        height: auto;
+        margin-left: 11.01888%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image5 {
+        float: left;
+        width: auto;
+        max-width: 6.162109%;
+        height: auto;
+        margin-left: 10.836589%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #image5 {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+        margin-left: 8.567708%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image4 {
+        height: auto;
+        width: auto;
+        max-width: 8.296441%;
+        margin-left: 8.884549%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 8.292101%;
+        margin-left: 8.89974%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+    }
+
+    #box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #image2 {
+        margin-left: 15.688119%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.98913%;
+        margin-top: 0px;
+    }
+
+    #image3 {
+        margin-left: 4.23338%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.985734%;
+        margin-top: 0px;
+    }
+
+    #image4 {
+        margin-left: 4.105138%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.982337%;
+        margin-top: 0px;
+    }
+
+    #image5 {
+        margin-left: 5.733696%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.97894%;
+        margin-top: 0px;
+    }
+
+    #box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #image {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+        top: 78px;
+        left: 19.375%;
+    }
+
+    #image1 {
+        margin-top: 179px;
+        clear: none;
+    }
+
+    #image5 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 4.835938%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        margin-left: 9.941406%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+    }
+
+    #image4 {
+        margin-left: 7.859375%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-top: 0px;
+    }
+
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 6.78125%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #box {
+        width: 100%;
+        clear: none;
+    }
+}
+

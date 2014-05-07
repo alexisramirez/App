@@ -1,0 +1,425 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/fondohome.png"),url("img/fondohomeMax.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#Nav {
+    float: left;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(84, 84, 84);
+    position: fixed;
+    top: auto;
+    left: 0%;
+    bottom: 0px;
+    right: auto;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 6.13444%;
+    height: auto;
+    margin-left: 21.336263%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 5.994466%;
+    height: auto;
+    margin-left: 11.070964%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 6.101888%;
+    height: auto;
+    margin-left: 11.01888%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 6.162109%;
+    height: auto;
+    margin-left: 10.836589%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: 70.666504%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 14.665222%;
+    margin-top: 71px;
+    clear: none;
+    min-height: 72px;
+}
+
+#cancelar {
+    float: left;
+    height: 49px;
+    font-size: 1em;
+    margin-left: 25.598145%;
+    margin-top: 49px;
+    clear: both;
+    width: 14.668274%;
+}
+
+#input {
+    float: left;
+    height: 49px;
+    font-size: 1em;
+    margin-left: 15.284729%;
+    margin-top: 49px;
+    clear: none;
+    width: 14.668274%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .primaryContainer {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+
+    #Nav {
+        float: left;
+        clear: none;
+        width: 100%;
+        background-color: rgb(84, 84, 84);
+        right: auto;
+        height: 50px;
+        bottom: 0px;
+        left: 0%;
+    }
+
+    #image {
+        margin-left: 21.334839%;
+        clear: none;
+    }
+
+    #image1 {
+        margin-left: 11.070251%;
+        clear: none;
+    }
+
+    #image2 {
+        margin-left: 11.018372%;
+        clear: none;
+    }
+
+    #image3 {
+        margin-left: 10.835266%;
+        clear: none;
+    }
+
+    #text {
+        float: left;
+        font-size: 1em;
+        width: 70.666504%;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 14.665222%;
+        margin-top: 71px;
+        clear: none;
+        min-height: 72px;
+    }
+
+    #textspan {
+        float: none;
+        font-size: 1.9em;
+        line-height: 1em;
+    }
+
+    #cancelar {
+        float: left;
+        height: 49px;
+        font-size: 1em;
+        margin-left: 25.598145%;
+        margin-top: 49px;
+        clear: both;
+        width: 14.668274%;
+    }
+
+    #input {
+        float: left;
+        height: 49px;
+        font-size: 1em;
+        margin-left: 15.284729%;
+        margin-top: 49px;
+        clear: none;
+        width: 14.668274%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #Nav {
+        width: 100%;
+        clear: none;
+    }
+
+    #image {
+        float: left;
+        width: auto;
+        max-width: 6.13444%;
+        height: auto;
+        margin-left: 21.336263%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image1 {
+        float: left;
+        width: auto;
+        max-width: 5.994466%;
+        height: auto;
+        margin-left: 11.070964%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image2 {
+        float: left;
+        width: auto;
+        max-width: 6.101888%;
+        height: auto;
+        margin-left: 11.01888%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image3 {
+        float: left;
+        width: auto;
+        max-width: 6.162109%;
+        height: auto;
+        margin-left: 10.836589%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+        margin-left: 8.567708%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        height: auto;
+        width: auto;
+        max-width: 8.296441%;
+        margin-left: 8.884549%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 8.292101%;
+        margin-left: 8.89974%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+    }
+
+    #Nav {
+        width: 100%;
+        height: 50px;
+    }
+
+    #cancelar {
+        margin-top: 49px;
+        margin-left: 17.063802%;
+        clear: both;
+        width: 23.200955%;
+        height: 49px;
+    }
+
+    #input {
+        margin-top: 49px;
+        margin-left: 15.284288%;
+        clear: none;
+        width: 21.24783%;
+        height: 49px;
+    }
+
+    #text {
+        width: 70.664063%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #image {
+        margin-left: 15.688119%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.98913%;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        margin-left: 4.23338%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.985734%;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        margin-left: 4.105138%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.982337%;
+        margin-top: 0px;
+    }
+
+    #image3 {
+        margin-left: 5.733696%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.97894%;
+        margin-top: 0px;
+    }
+
+    #Nav {
+        width: 100%;
+        height: 50px;
+    }
+
+    #cancelar {
+        margin-top: 49px;
+        margin-left: 14.663723%;
+        clear: both;
+        width: 25.601223%;
+        height: 49px;
+    }
+
+    #input {
+        margin-top: 49px;
+        margin-left: 15.281929%;
+        clear: none;
+        width: 27.384511%;
+        height: 49px;
+    }
+
+    #text {
+        width: 70.665761%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 4.835938%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image {
+        margin-left: 9.941406%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+    }
+
+    #image2 {
+        margin-left: 7.859375%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 6.78125%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #Nav {
+        width: 100%;
+        clear: none;
+        height: 50px;
+    }
+
+    #cancelar {
+        margin-top: 49px;
+        margin-left: 14.664063%;
+        clear: both;
+        width: 31.933594%;
+        height: 49px;
+    }
+
+    #text {
+        width: 70.664063%;
+    }
+
+    #input {
+        width: 30.257812%;
+        height: 49px;
+        margin-top: 49px;
+        margin-left: 7.859375%;
+        clear: none;
+    }
+}
+

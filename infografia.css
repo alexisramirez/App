@@ -1,0 +1,338 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/fondohome.png"),url("img/fondohomeMax.png");
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#Nav {
+    float: left;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(84, 84, 84);
+    position: fixed;
+    top: auto;
+    left: 0%;
+    bottom: 0px;
+    right: auto;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 6.13444%;
+    height: auto;
+    margin-left: 21.336263%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 5.994466%;
+    height: auto;
+    margin-left: 11.070964%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 6.101888%;
+    height: auto;
+    margin-left: 11.01888%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 6.162109%;
+    height: auto;
+    margin-left: 10.836589%;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: auto;
+}
+
+#Info {
+    float: left;
+    height: 548px;
+    margin-left: 6.132507%;
+    margin-top: 20px;
+    clear: none;
+    width: 87.734985%;
+}
+
+#box {
+    float: left;
+    height: auto;
+    margin-left: 98.631257%;
+    margin-top: 507px;
+    clear: none;
+    width: 11.130822%;
+    min-height: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .primaryContainer {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+
+    #Nav {
+        float: left;
+        clear: none;
+        width: 100%;
+        background-color: rgb(84, 84, 84);
+        right: auto;
+        height: 50px;
+    }
+
+    #image {
+        margin-left: 21.334839%;
+        clear: none;
+    }
+
+    #image1 {
+        margin-left: 11.070251%;
+        clear: none;
+    }
+
+    #image2 {
+        margin-left: 11.018372%;
+        clear: none;
+    }
+
+    #image3 {
+        margin-left: 10.835266%;
+        clear: none;
+    }
+
+    #Info {
+        float: left;
+        height: 548px;
+        margin-left: 6.132507%;
+        margin-top: 20px;
+        clear: none;
+        width: 87.734985%;
+    }
+
+    #box {
+        float: left;
+        height: auto;
+        margin-left: 98.631257%;
+        margin-top: 507px;
+        clear: none;
+        width: 11.130822%;
+        min-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #Nav {
+        width: 100%;
+        clear: none;
+    }
+
+    #image {
+        float: left;
+        width: auto;
+        max-width: 6.13444%;
+        height: auto;
+        margin-left: 21.336263%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image1 {
+        float: left;
+        width: auto;
+        max-width: 5.994466%;
+        height: auto;
+        margin-left: 11.070964%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image2 {
+        float: left;
+        width: auto;
+        max-width: 6.101888%;
+        height: auto;
+        margin-left: 11.01888%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image3 {
+        float: left;
+        width: auto;
+        max-width: 6.162109%;
+        height: auto;
+        margin-left: 10.836589%;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+        margin-left: 8.567708%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        height: auto;
+        width: auto;
+        max-width: 8.296441%;
+        margin-left: 8.884549%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 8.292101%;
+        margin-left: 8.89974%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image {
+        height: auto;
+        width: auto;
+        max-width: 8.294271%;
+    }
+
+    #Nav {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #image {
+        margin-left: 15.688119%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.98913%;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        margin-left: 4.23338%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.985734%;
+        margin-top: 0px;
+    }
+
+    #image2 {
+        margin-left: 4.105138%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.982337%;
+        margin-top: 0px;
+    }
+
+    #image3 {
+        margin-left: 5.733696%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 12.97894%;
+        margin-top: 0px;
+    }
+
+    #Nav {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #image3 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 4.835938%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #image {
+        margin-left: 9.941406%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+    }
+
+    #image2 {
+        margin-left: 7.859375%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-top: 0px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 14.9375%;
+        margin-left: 6.78125%;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #Info {
+    float: left;
+    height: 548px;
+    margin-left: 6.132507%;
+    margin-top: 20px;
+    clear: none;
+    width: 87.734985%;
+}
+
+div#Stage {
+    height: 548px;
+    width: 87.734985%;
+}
+
+    #Nav {
+        width: 100%;
+        clear: none;
+    }
+}
+

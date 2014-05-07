@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+	<link rel="stylesheet" href="boilerplate.css" />
+	<link rel="stylesheet" href="login.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="flogin.js"></script>
+    <script>
+    $(document).ready(function () {
+      $('#botonFacebook').facebook_login({
+        appId: '417958405007824'
+      });
+    });
+    
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <img id="logotipo" src="img/App2_03.png" class="image" />
+        <div id="contenedorFacebook" class="clearfix">
+            <img id="botonFacebook" src="img/App2_06.png" class="image" />
+        </div>
+    </div>
+    </body>
+</html>

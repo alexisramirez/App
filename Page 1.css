@@ -1,0 +1,160 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 19.25%;
+    margin-top: 93px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box {
+    float: left;
+    height: 53px;
+    margin-left: 19.25%;
+    margin-top: 122px;
+    clear: both;
+    width: 61.25%;
+    margin-right: 0%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .primaryContainer {
+        background-image:url("img/fondoMax.png");
+        background-attachment: scroll;
+        background-size: auto;
+        background-position: 0% 0%;
+        background-repeat: repeat repeat;
+    }
+
+    #image {
+        margin-top: 119px;
+        margin-left: 37.814331%;
+        clear: none;
+    }
+
+    #box {
+        margin-top: 96px;
+        margin-left: 19.248962%;
+        clear: both;
+        width: 61.248779%;
+        height: 53px;
+    }
+
+    #image1 {
+        margin-top: 0px;
+        margin-left: 31.410065%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #image {
+        margin-top: 113px;
+        margin-left: 32.929688%;
+        clear: none;
+    }
+
+    #box {
+        margin-top: 102px;
+        margin-left: 19.246962%;
+        clear: both;
+        width: 61.24783%;
+        height: 53px;
+    }
+
+    #image1 {
+        margin-top: 0px;
+        margin-left: 22.566701%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #image {
+        margin-top: 112px;
+        margin-left: 23.529212%;
+        clear: none;
+    }
+
+    #box {
+        margin-top: 103px;
+        margin-left: 20.108696%;
+        clear: both;
+        width: 61.246603%;
+        height: 53px;
+    }
+
+    #image1 {
+        margin-top: 0px;
+        margin-left: 6.206323%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .primaryContainer {
+        background-color: rgb(252, 226, 184);
+        background-image:url("img/fondo%201.png");
+        background-attachment: scroll;
+        background-size: auto;
+        background-position: 0% 0%;
+        background-repeat: repeat repeat;
+    }
+
+    #image {
+        float: left;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 19.25%;
+        margin-top: 93px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image1 {
+        float: left;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 0%;
+    }
+
+    #box {
+        float: left;
+        height: 53px;
+        margin-left: 19.25%;
+        margin-top: 122px;
+        clear: both;
+        width: 61.25%;
+        margin-right: 0%;
+    }
+}
+

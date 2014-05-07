@@ -1,0 +1,171 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/fondoMax.png");
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#logotipo {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 93px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#botonFacebook {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#contenedorFacebook {
+    float: none;
+    height: 53px;
+    margin-left: auto;
+    margin-top: 122px;
+    clear: both;
+    width: 61.25%;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .primaryContainer {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+
+    #logotipo {
+        margin-top: 119px;
+        clear: none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    #contenedorFacebook {
+        margin-top: 96px;
+        clear: none;
+        width: 61.248779%;
+        height: 53px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #logotipo {
+        margin-top: 123px;
+        clear: none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    #contenedorFacebook {
+        margin-top: 92px;
+        clear: none;
+        width: 61.247433%;
+        height: 53px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #logotipo {
+        margin-top: 113px;
+        clear: none;
+    }
+
+    #contenedorFacebook {
+        margin-top: 102px;
+        clear: none;
+        width: 61.24783%;
+        height: 53px;
+    }
+
+    #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #logotipo {
+        margin-top: 112px;
+        clear: none;
+    }
+
+    #contenedorFacebook {
+        margin-top: 103px;
+        clear: none;
+        width: 61.246603%;
+        height: 53px;
+    }
+
+    #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .primaryContainer {
+        background-image:url("img/fondo.png"),url("img/fondoMax.png");
+        background-position: 0% 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: auto;
+    }
+
+    #logotipo {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: 93px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #botonFacebook {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: -2px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #contenedorFacebook {
+        height: 53px;
+        margin-top: 122px;
+        clear: none;
+        width: 61.25%;
+    }
+}
+
