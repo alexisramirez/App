@@ -36,7 +36,29 @@
     margin-right: auto;
 }
 
+#botonEntrar {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
 #contenedorFacebook {
+    float: none;
+    height: 53px;
+    margin-left: auto;
+    margin-top: 122px;
+    clear: both;
+    width: 61.25%;
+    margin-right: auto;
+}
+
+#contenedorEntrar {
     float: none;
     height: 53px;
     margin-left: auto;
@@ -72,8 +94,23 @@
         top: 0px;
         left: 0px;
     }
+    
+    #contenedorEntrar {
+        margin-top: 96px;
+        clear: none;
+        width: 61.248779%;
+        height: 53px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+}
 
     #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+
+     #botonEntrar {
         margin-top: 0px;
         clear: none;
     }
@@ -94,6 +131,13 @@
         width: 61.247433%;
         height: 53px;
     }
+
+       #contenedorEntrar {
+        margin-top: 92px;
+        clear: none;
+        width: 61.247433%;
+        height: 53px;
+}
 }
 
 @media only screen and (max-width: 720px) {
@@ -109,7 +153,19 @@
         height: 53px;
     }
 
+    #contenedorEntrar {
+        margin-top: 102px;
+        clear: none;
+        width: 61.24783%;
+        height: 53px;
+}
+
     #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+
+     #botonEntrar {
         margin-top: 0px;
         clear: none;
     }
@@ -128,7 +184,19 @@
         height: 53px;
     }
 
+      #contenedorEntrar {
+        margin-top: 103px;
+        clear: none;
+        width: 61.246603%;
+        height: 53px;
+    }
+
     #botonFacebook {
+        margin-top: 0px;
+        clear: none;
+    }
+
+    #botonEntrar {
         margin-top: 0px;
         clear: none;
     }
@@ -161,7 +229,23 @@
         color: rgb(0, 0, 0);
     }
 
+     #botonEntrar {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: -2px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
     #contenedorFacebook {
+        height: 53px;
+        margin-top: 122px;
+        clear: none;
+        width: 61.25%;
+    }
+
+       #contenedorEntrar {
         height: 53px;
         margin-top: 122px;
         clear: none;
