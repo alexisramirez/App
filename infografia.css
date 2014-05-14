@@ -131,7 +131,9 @@
         margin-top: 20px;
         clear: none;
         width: 87.734985%;
+        height: 37em;
     }
+
 
     #box {
         float: left;
@@ -273,9 +275,9 @@
 
 @media only screen and (max-width: 400px) {
 
-    body{
+   /* body{
         margin-left: -130.867493%;
-    }
+    }*/
 
     #image3 {
         height: auto;
@@ -312,13 +314,22 @@
         margin-top: 0px;
     }
 
-    #Info {
+   /* #Info {
     float: left;
     height: 548px;
     margin-left: 6.132507%;
     margin-top: 20px;
     clear: none;
     width: 96.734985%;
+}*/
+
+#Info {
+        float: left;
+        margin-left: 6.132507%;
+        margin-top: 20px;
+        clear: none;
+        width: 87.734985%;
+        height: 37em;
 }
 
 div#Stage {
@@ -331,6 +342,7 @@ div#Stage {
         clear: none;
     }
 }
+
 
 
 
