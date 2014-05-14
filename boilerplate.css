@@ -246,7 +246,8 @@ td { vertical-align: top; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
-
+ overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
 
 
 /* ==|== print styles =======================================================
