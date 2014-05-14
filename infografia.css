@@ -83,6 +83,8 @@
     clear: none;
     width: 87.734985%;
     height: 37em;
+     overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
 }
 
 
@@ -132,6 +134,8 @@
         clear: none;
         width: 87.734985%;
         height: 37em;
+         overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
     }
 
 
@@ -330,6 +334,8 @@
         clear: none;
         width: 87.734985%;
         height: 37em;
+         overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
 }
 
 div#Stage {
