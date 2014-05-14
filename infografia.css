@@ -82,16 +82,9 @@
     margin-top: 20px;
     clear: none;
     width: 87.734985%;
+    height: 37em;
 }
 
-#box {
-    float: left;
-    height: auto;
-    margin-top: 507px;
-    clear: none;
-    width: 11.130822%;
-    min-height: 50px;
-}
 
 @media only screen and (max-width: 1024px) {
     .primaryContainer {
@@ -338,4 +331,6 @@ div#Stage {
         clear: none;
     }
 }
+
+
 
