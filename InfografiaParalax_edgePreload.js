@@ -5,7 +5,6 @@
 *
 ***********************/
 window.AdobeEdge = window.AdobeEdge || {};
-<script type="text/javascript" charset="utf-8" src="InfografiaParalax_edgePreload.js"></script>
 // Include yepnope
 if(!AdobeEdge.yepnope) {
 /*yepnope1.5.x|WTFPL*/
